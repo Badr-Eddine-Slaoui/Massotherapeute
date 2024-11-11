@@ -24,7 +24,7 @@
                 <ul class="ms-auto flex justify-between items-center">
                     <li class="text-[18px] font-semibold uppercase text-[#03a9f4] after:block after:w-full after:h-1 after:bg-[#03a9f4]"><a class="text-decoration-none" href="{{ route('home') }}">Accueil</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('apropos') }}">A propos</a></li>
-                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">Soins</a></li>
+                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('soins') }}">Soins</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">Rendez-vous</a></li>
                 </ul>
             </nav>

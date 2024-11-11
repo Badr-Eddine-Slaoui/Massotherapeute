@@ -34,7 +34,7 @@
                 <h1 class="font-[300] text-6xl mt-10 mb-28">À propos</h1>
                 <div class="w-full grid grid-rows-1 grid-cols-2 my-10 gap-y-32">
                     <div>
-                        <img src="{{ asset('Images/Apropos1.jpeg') }}" alt="Apropos1">
+                        <img class="shadow-center-gray" src="{{ asset('Images/Apropos1.jpeg') }}" alt="Apropos1">
                     </div>
                     <div class="flex justify-center items-center">
                         <p>Mordu de sport, je pratique moi-même l’escalade, le squash, le vtt et suis également présent dans le milieu du foot. Entraîneur d’athlétisme depuis plus de 20 ans, tant pour le sport loisir que pour les personnes souhaitant faire de la compétition, j’ai suivi l’ensemble du cursus J+S et continue de me former auprès de Swiss-Olympic, pour le brevet fédéral d’entraîneur. Lors de ces années de présence auprès des athlètes, il m’est très vite devenu évident que l’entraînement seul ne suffit pas à accompagner les sportifs. Que cela soit dans un but de loisirs ou avec un entraînement à visée de compétition, il est important de prendre soins de soi. Pour ce faire, j’ai démarré une formation de massothérapeute au sein de l’école Atlas et Bien Etre.</p>
@@ -43,7 +43,7 @@
                         <p>Mon expérience sur le terrain me permet aujourd’hui de pouvoir apporter un soin thérapeutique avec un regard et une compréhension du mouvement, ceci en lien avec les gestes réalisés au quotidien, que ce soit dans les activités sportives, professionnelles ou simplement dans la vie de tous les jours. La frontière entre le sport et le milieu professionnel est en effet très proche. Nous prenons soins des sportifs, mais le faisons-nous autant pour un carreleur qui porte parfois plus de poids quotidiennement que le pratiquant de crossfit ? Inversement une personne qui reste longtemps en position assise a de grand risque de voir son psoas se raccourcir et peut à la longue développer des des douleurs dans le bas du dos ? Mon but est de pouvoir m’adapter aux besoins spécifiques de chaque personne.</p>
                     </div>
                     <div>
-                        <img class="float-end" src="{{ asset('Images/Apropos2.jpg') }}" alt="Apropos2">
+                        <img class="float-end shadow-center-gray" src="{{ asset('Images/Apropos2.jpg') }}" alt="Apropos2">
                     </div>
                 </div>
             </div>
