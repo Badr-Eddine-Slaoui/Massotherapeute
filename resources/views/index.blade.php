@@ -71,31 +71,31 @@
                                 <p class="text-[18px] font-semibold mb-5">Massage thérapeutique</p>
                                 <p class="text-[18px] font-[300]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif</p>
                             </div>
-                            <div class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500">
+                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('soins') }}#massage-thérapeutique">
                                 <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative">
                         <div class="w-full h-full bg-white bg-opacity-60 flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5">Massage thérapeutique</p>
+                                <p class="text-[18px] font-semibold mb-5">Massage relaxant</p>
                                 <p class="text-[18px] font-[300]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif</p>
                             </div>
-                            <div class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500">
+                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('soins') }}#massage-relaxant">
                                 <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative">
                         <div class="w-full h-full bg-white bg-opacity-60 flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5">Massage thérapeutique</p>
+                                <p class="text-[18px] font-semibold mb-5">Massage sportif</p>
                                 <p class="text-[18px] font-[300]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif</p>
                             </div>
-                            <div class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500">
+                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('soins') }}#massage-sportif">
                                 <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -103,23 +103,23 @@
                     <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative">
                         <div class="w-full h-full bg-white bg-opacity-60 flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5">Massage thérapeutique</p>
+                                <p class="text-[18px] font-semibold mb-5">Électrostimulation</p>
                                 <p class="text-[18px] font-[300]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif</p>
                             </div>
-                            <div class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500">
+                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('soins') }}#electrostimulation">
                                 <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative">
                         <div class="w-full h-full bg-white bg-opacity-60 flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5">Massage thérapeutique</p>
+                                <p class="text-[18px] font-semibold mb-5">Ventouses</p>
                                 <p class="text-[18px] font-[300]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif</p>
                             </div>
-                            <div class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500">
+                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('soins') }}#ventouses">
                                 <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
