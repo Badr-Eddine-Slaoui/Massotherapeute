@@ -36,7 +36,7 @@
                     <div>
                         <p class=" text-4xl font-[300] mb-5">Le massage thérapeutique</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif. Le massothérapeute dispose de plusieurs techniques de base qui sont l’effleurage, le pétrissage, les pressions, les percussions, les frictions… qui agissent à différentes profondeurs sur différents tissus (muscles, tendons, ligaments, fascias…). Mais toutes ces manoeuvres ont un effet sur les fascias, qui sont présents à tous les niveaux de profondeur du corps.</p>
-                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%]">Rendez-vous</button>
+                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></button>
                     </div>
                     <div class="flex items-center">
                         <img class="shadow-center-gray" src="{{ asset('Images/Soins1.jpg') }}" alt="Apropos1">
@@ -59,7 +59,7 @@
 
 
                             Le massage relaxant permet à votre corps d’oxygéner les tissus, de supprimer les douleurs articulaires et musculaires, et même de favoriser et améliorer la circulation du sang. Le massage classique offre à votre corps une profonde détente, la relaxation complète ainsi que le bien-être.</p>
-                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%]">Rendez-vous</button>
+                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></button>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                         <p class="text-[16px] text-[#477180] leading-[1.6]">Le massage sportif s’adresse naturellement aux sportifs, mais pas uniquement aux athlètes professionnels ; Quiconque pratique une activité physique sur une base régulière peut en bénéficier.
 
                             Utilisé autant en préparation à l’entraînement, qu’à la récupération, le massage sportif est l’allié idéal pour apaiser le corps à qui l’on demande beaucoup. Il vise à préserver la mobilité et la flexibilité des articulations ainsi qu’à soulager les douleurs musculo-articulaires liées à l’entraînement.</p>
-                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%]">Rendez-vous</button>
+                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></button>
                     </div>
                     <div class="flex items-center">
                         <img class="shadow-center-gray" src="{{ asset('Images/Soins3.jpeg') }}" alt="Apropos1">
@@ -91,7 +91,7 @@
                         <p class="text-[16px] text-[#477180] leading-[1.6]">L’électrostimulation, NMES, est destiné à transformer vos entraînements en une véritable expérience. Les abréviations signifient Neuromuscular Electrical Stimulation qui est la livraison d’un courant électrique via les nerfs moteurs d’un muscle pour stimuler l’activation musculaire afin de créer une contraction musculaire. Avec cette méthode, nous contournons essentiellement le cerveau afin de créer une contraction musculaire via le nerf moteur et sans avoir besoin de pensée consciente.
 
                             La recherche montre que même les personnes très mobiles, sportives et en forme ne tirent pas vraiment le meilleur parti de leurs muscles. Avec les programmes NMES, nous pouvons recruter plus de fibres musculaires en utilisant la stimulation électrique couplée à une séance d’entraînement, qu’avec une séance d’entraînement seule. Cela signifie pratiquement que nous pouvons nous entraîner, mieux, plus dur, et obtenir le maximum de résultats, tout en restant toujours du côté de la sécurité ! L’électrostimulation dans le cadre d’un soin, vous apportera des effets de relaxation musculaire, antidouleurs, capillarisation/vascularisation, soit une excellente contribution à votre récupération.</p>
-                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%]">Rendez-vous</button>
+                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></button>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                             <li class="text-[16px] text-[#477180] leading-[1.6]">Stress</li>
                             <li class="text-[16px] text-[#477180] leading-[1.6]">Récupération des muscles après sport</li>
                         </ul>
-                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%]">Rendez-vous</button>
+                        <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></button>
                     </div>
                     <div class="flex items-center">
                         <img class="shadow-center-gray" src="{{ asset('Images/Soins5.jpg') }}" alt="Apropos1">
@@ -136,11 +136,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-4/6 grid grid-cols-1 grid-rows-1 gap-10 p-10">
+                    <form class="w-4/6 grid grid-cols-1 grid-rows-1 gap-10 p-10" action="{{ route('contact.store') }}" method="POST">
+                        @csrf
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[18px] font-semibold" for="nom_complet">Nom <span class=" text-red-600">*</span></label>
-                            <input class="text-black border-b border-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1" placeholder="Par exemple : Jean" id="nom_complet" name="nom_complet" type="text" value="{{ old('nom_complet') }}">
-                            @error('nom_complet')
+                            <label class="text-[18px] font-semibold" for="nom">Nom <span class=" text-red-600">*</span></label>
+                            <input class="text-black border-b border-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1" placeholder="Par exemple : Jean" id="nom" name="nom" type="text" value="{{ old('nom') }}">
+                            @error('nom')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
@@ -165,12 +166,19 @@
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
-                    </div>
+                        <input class="text-white uppercase bg-[#03a9f4] px-8 py-4 block m-auto cursor-pointer hover:bg-cyan-700" type="submit" value="Envoyer le message">
+                    </form>
                 </div>
                 <div>
                     <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5963.2699960497375!2d-9.236240317659657!3d32.299677851376316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sma!4v1731345640387!5m2!1sen!2sma"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
+        @if (session()->has('success'))
+            <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md">
+                <p class="ms-5">{{ session('success') }}</p>
+                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl"></div>
+            </div>
+        @endif
     </body>
 </html>

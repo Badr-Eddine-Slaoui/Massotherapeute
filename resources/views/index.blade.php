@@ -25,7 +25,7 @@
                     <li class="text-[18px] font-semibold uppercase text-[#03a9f4] after:block after:w-full after:h-1 after:bg-[#03a9f4]"><a class="text-decoration-none" href="{{ route('home') }}">Accueil</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('apropos') }}">A propos</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('soins') }}">Soins</a></li>
-                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">Rendez-vous</a></li>
+                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('rendezVous') }}">Rendez-vous</a></li>
                 </ul>
             </nav>
         </header>
@@ -140,11 +140,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-4/6 grid grid-cols-1 grid-rows-1 gap-10 p-10">
+                    <form class="w-4/6 grid grid-cols-1 grid-rows-1 gap-10 p-10" action="{{ route('contact.store') }}" method="POST">
+                        @csrf
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
-                            <label class="text-[18px] font-semibold" for="nom_complet">Nom <span class=" text-red-600">*</span></label>
-                            <input class="text-black border-b border-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1" placeholder="Par exemple : Jean" id="nom_complet" name="nom_complet" type="text" value="{{ old('nom_complet') }}">
-                            @error('nom_complet')
+                            <label class="text-[18px] font-semibold" for="nom">Nom <span class=" text-red-600">*</span></label>
+                            <input class="text-black border-b border-black focus:outline-0 placeholder:text-gray-[#a3a3a3] px-4 py-1" placeholder="Par exemple : Jean" id="nom" name="nom" type="text" value="{{ old('nom') }}">
+                            @error('nom')
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
@@ -169,12 +170,19 @@
                                 <p class="text-red-600 mt-5">{{ $message }}</p>
                             @enderror
                         </div>
-                    </div>
+                        <input class="text-white uppercase bg-[#03a9f4] px-8 py-4 block m-auto cursor-pointer hover:bg-cyan-700" type="submit" value="Envoyer le message">
+                    </form>
                 </div>
                 <div>
                     <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5963.2699960497375!2d-9.236240317659657!3d32.299677851376316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sma!4v1731345640387!5m2!1sen!2sma"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
+        @if (session()->has('success'))
+            <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md">
+                <p class="ms-5">{{ session('success') }}</p>
+                <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl"></div>
+            </div>
+        @endif
     </body>
 </html>
