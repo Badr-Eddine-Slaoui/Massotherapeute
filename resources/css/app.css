@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shadow-center{
+    box-shadow: 0px 0px 16px black;
+}
+
+.shadow-center-gray{
+    box-shadow: 0px 0px 16px gray;
+}
+
+.animate-bounce-100{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    60% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
