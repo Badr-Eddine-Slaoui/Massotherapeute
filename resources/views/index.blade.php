@@ -23,7 +23,7 @@
             <nav class="w-2/5">
                 <ul class="ms-auto flex justify-between items-center">
                     <li class="text-[18px] font-semibold uppercase text-[#03a9f4] after:block after:w-full after:h-1 after:bg-[#03a9f4]"><a class="text-decoration-none" href="{{ route('home') }}">Accueil</a></li>
-                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">A propos</a></li>
+                    <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('apropos') }}">A propos</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">Soins</a></li>
                     <li class="text-[18px] font-semibold uppercase transition-all duration-500 text-[#026e9f] hover:text-[#03a9f4] after:block after:w-0 after:h-1 after:bg-[#03a9f4] after:transition-all after:duration-200 hover:after:w-full"><a class="text-decoration-none" href="{{ route('home') }}">Rendez-vous</a></li>
                 </ul>
@@ -50,17 +50,17 @@
         <section id="apropos" class="w-4/5 min-h-screen mx-auto flex justify-center items-center py-20">
             <div class="w-full grid grid-rows-1 grid-cols-2">
                 <div class="rounded-xl p-20 shadow-center-gray">
-                    <p class="text-[18px] font-semibold font-bold">À propos</p>
+                    <p class="text-[18px] font-bold">À propos</p>
                     <p class="text-5xl my-5 font-[300]">Nicolas Verraires</p>
                     <p class="text-[16px] text-[#46707f] leading-[1.6] my-2">Mordu de sport, entraîneur d’athlétisme depuis plus de 20 ans, j’ai suivi l’ensemble du cursus J+S et continue de me former auprès de Swiss-Olympic, pour le brevet fédéral d’entraîneur. J’ai démarré une formation de massothérapeute au sein de l’école Atlas et Bien Etre.</p>
                     <p class="text-[16px] text-[#46707f] leading-[1.6] my-2">Mon expérience sur le terrain me permet aujourd’hui de pouvoir apporter un soin thérapeutique avec un regard et une compréhension du mouvement. Ceci en lien avec les gestes réalisés au quotidien, que ce soit dans les activités sportives, professionnelles ou simplement dans la vie de tous les jours</p>
                 </div>
                 <div class="flex justify-center items-center relative">
-                    <img class="w-full rounded-xl absolute -left-8 shadow-center-gray" src="{{ asset('Images/À propos Pic.jpg') }}" alt="">
+                    <img class="w-full rounded-xl absolute -left-8 shadow-center-gray" src="{{ asset('Images/À propos Pic.jpg') }}" alt="À propos Pic">
                 </div>
             </div>
         </section>
-        <section id="apropos" class="w-full min-h-screen mx-auto flex justify-center items-center py-5 bg-[#f5fafd]">
+        <section class="w-full min-h-screen mx-auto flex justify-center items-center py-20 bg-[#f5fafd]">
             <div class="w-5/6 text-center">
                 <h2 class="text-5xl my-5 font-[300]">Les soins</h2>
                 <p class="text-[20px] my-10">Voici en quelques lignes, les soins que je vous propose. N’hésitez pas à cliquer dessus pour en savoir un peu plus, ainsi qu’à me contacter pour plus d’informations</p>
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section id="apropos" class="w-full min-h-screen mx-auto flex justify-center items-center py-5 bg-[#0d678f]">
+        <section class="w-full min-h-screen mx-auto flex justify-center items-center py-5 bg-[#0d678f]">
             <div class="w-11/12 grid grid-rows-1 grid-cols-2">
                 <div class="w-full bg-white flex">
                     <div class="w-2/6 bg-[#03a9f4] flex justify-center items-center">
