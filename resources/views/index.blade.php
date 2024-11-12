@@ -31,12 +31,12 @@
         </header>
         <main class="w-full mt-[15vh] min-h-[150vh] bg-HomeBg bg-cover relative xs:min-h-[65vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[150vh]">
             <div class="w-full h-full bg-black bg-opacity-50 absolute z-[1] flex items-center justify-center">
-                <div class="text-white w-3/5 mx-auto text-center">
+                <div class="text-white w-3/5 mx-auto text-center xs:w-8/12 sm:w-3/5 md:w-8/12 xl:w-3/5">
                     <div class="flex h-[35vh] mt-40 xs:h-[25vh] xs:mt-0 sm:h-[36vh] md:h-[35vh] md:mt-16">
                         <h1 class="text-[3.375em] w-2/3 font-[300] leading-[1.23] flex justify-center items-center xs:text-[0.8em] sm:text-[1.6em] md:text-[2em] lg:text-[3em]">MASSOTHÉRAPEUTE COACH SPORTIF</h1>
-                        <div class="w-2/5 my-auto">
-                            <button class="block mx-auto bg-[#03a9f4] py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5">- les soins -</button>
-                            <button class="block mx-auto border-2  border-white py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5">- rendez-vous -</button>
+                        <div class="w-2/5 my-auto xs:w-full">
+                            <button class="block mx-auto bg-[#03a9f4] py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a href="{{ route('soins') }}">- les soins -</a></button>
+                            <button class="block mx-auto border-2  border-white py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a href="{{ route('contact') }}">- contactez-nous -</a></button>
                         </div>
                     </div>
                     <h2 class="w-1/2 text-3xl font-[300] m-auto leading-[1.23] xs:text-xs xs:mt-0 sm:text-sm sm:mt-0 md:text-xl lg:text-2xl lg:mt-5">NV-MASSOTHERAPEUTE<br>La Sarraz</h2>
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </main>
-        <section id="apropos" class="w-4/5 min-h-screen mx-auto flex justify-center items-center py-20 xs:py-0 ">
+        <section id="apropos" class="w-4/5 min-h-[65vh] mx-auto flex justify-center items-center py-20 xs:py-0 xs:min-h-[50vh] sm:min-h-[65vh] md:min-h-[80vh] lg:min-h-[95vh] xl:min-h-screen">
             <div class="w-full grid grid-rows-1 grid-cols-2">
                 <div class="rounded-xl p-20 shadow-center-gray text-justify xs:w-[135%] xs:p-4 sm:p-5 sm:w-full md:p-5 md:w-full lg:p-16">
                     <p class="text-[18px] font-bold xs:text-[8px] sm:text-[12px] md:text-[16px]">À propos</p>
