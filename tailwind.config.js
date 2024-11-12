@@ -6,10 +6,14 @@ export default {
       "./resources/**/*.vue",
     ],
     theme: {
-      extend: {},
-      backgroundImage: {
-        'HomeBg': "url('/public/Images/massotherapie.jpg')",
-      },
+        extend: {
+            screens: {
+              'xs': '320px',
+            }
+        },
+        backgroundImage: {
+            'HomeBg': "url('/public/Images/massotherapie.jpg')",
+        },
     },
     plugins: [],
 }
