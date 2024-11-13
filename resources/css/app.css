@@ -7,6 +7,15 @@
     color: white;
 }
 
+body::-webkit-scrollbar{
+    background-color: transparent;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #03a9f4;
+}
+
 .shadow-center{
     box-shadow: 0px 0px 16px black;
 }
