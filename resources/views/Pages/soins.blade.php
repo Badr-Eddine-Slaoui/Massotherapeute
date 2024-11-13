@@ -108,10 +108,10 @@
                 </div>
             </div>
         </section>
-        <section class="w-full min-h-screen mx-auto flex justify-center items-center py-5 bg-[#0d678f]">
-            <div class="w-11/12 grid grid-rows-1 grid-cols-2 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
+        <footer class="w-full min-h-screen mx-auto flex justify-center items-center py-5 bg-[#0d678f]">
+            <div class="w-11/12 grid grid-rows-1 grid-cols-1">
                 <div class="w-full bg-white flex xs:block sm:flex md:flex">
-                    <div class="w-2/6 bg-[#03a9f4] flex justify-center items-center xs:w-full xs:pt-5 sm:w-2/6 sm:pt-0 md:w-2/6 md:w-pt-0">
+                    <div class="w-1/6 bg-[#03a9f4] flex justify-center items-center xs:w-full xs:pt-5 sm:w-2/6 sm:pt-0 md:w-2/6 md:w-pt-0">
                         <div class="text-white text-center">
                             <p class="text-[20px] uppercase font-semibold xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[18px]">Contact direct</p>
                             <i class="text-[26px] w-[8vh] h-[8vh] border-2 rounded-full fa-regular fa-envelope flex justify-center items-center m-auto my-5 xs:text-[10px] xs:border xs:w-[4vh] xs:h-[4vh] sm:text-[11px] sm:border sm:w-[4vh] sm:h-[4vh] md:text-[14px] md:border-2 md:w-[5vh] md:h-[5vh] lg:text-[24px] lg:w-[7vh] lg:h-[7vh]"></i>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <form class="w-4/6 grid grid-cols-1 grid-rows-1 gap-10 p-10 xs:w-full sm:w-4/6 sm:p-2 md:w-4/6 md:p-5" action="{{ route('contact.store') }}" method="POST">
+                    <form class="w-5/6 grid grid-cols-1 grid-rows-1 gap-10 p-10 xs:w-full sm:w-4/6 sm:p-2 md:w-5/6 md:p-5" action="{{ route('contact.store') }}" method="POST">
                         @csrf
                         <div class="grid grid-cols-1 grid-rows-2 gap-4">
                             <label class="text-[18px] font-semibold xs:text-[10px] sm:text-[11px] md:text-[13px] lg:text-[16px]" for="nom">Nom <span class=" text-red-600">*</span></label>
@@ -156,11 +156,8 @@
                         <input class="text-white uppercase bg-[#03a9f4] px-8 py-4 block m-auto cursor-pointer hover:bg-cyan-700 xs:text-[10px] xs:px-5 xs:py-2 sm:text-[10px] sm:px-4 sm:py-2 md:text-[12px] md:px-5 md:py-2" type="submit" value="Envoyer le message">
                     </form>
                 </div>
-                <div>
-                    <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5963.2699960497375!2d-9.236240317659657!3d32.299677851376316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sma!4v1731345640387!5m2!1sen!2sma"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
             </div>
-        </section>
+        </footer>
         @if (session()->has('success'))
             <div id="alert" class="w-1/4 h-[8vh] items-center z-20 fixed right-10 bottom-8 bg-green-600 text-white font-bold rounded-md xs:w-1/2 xs:right-3 xs:h-[7vh] sm:w-2/5 sm:right-5 md:w-2/5 md:right-8 lg:w-1/4">
                 <p class="ms-5">{{ session('success') }}</p>
