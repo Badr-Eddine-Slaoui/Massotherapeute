@@ -32,7 +32,7 @@
         <section class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
             <div class="w-5/6 mx-auto">
                 <h1 class="font-[300] text-6xl mt-10 mb-28 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Soins</h1>
-                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-10 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
+                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
                     <div>
                         <p class="text-4xl font-[300] mb-5 xs:text-xs sm:text-xl md:text-xl xs:mb-2">Le massage thérapeutique</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6] xs:text-[10px] sm:text-[11px] md:text-[14px] lg:text-[16px]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif. Le massothérapeute dispose de plusieurs techniques de base qui sont l’effleurage, le pétrissage, les pressions, les percussions, les frictions… qui agissent à différentes profondeurs sur différents tissus (muscles, tendons, ligaments, fascias…). Mais toutes ces manoeuvres ont un effet sur les fascias, qui sont présents à tous les niveaux de profondeur du corps.</p>
@@ -66,7 +66,7 @@
         </section>
         <section id="massage-sportif" class="w-full pt-1 pb-20 xs:pb-5 xs:min-h-[50vh]">
             <div class="w-5/6 mx-auto">
-                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-10 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
+                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
                     <div>
                         <p class="text-4xl font-[300] mb-5 xs:text-xs sm:text-xl md:text-xl xs:mb-2">Le massage thérapeutique</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6] xs:text-[10px] sm:text-[11px] md:text-[14px] lg:text-[16px]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif. Le massothérapeute dispose de plusieurs techniques de base qui sont l’effleurage, le pétrissage, les pressions, les percussions, les frictions… qui agissent à différentes profondeurs sur différents tissus (muscles, tendons, ligaments, fascias…). Mais toutes ces manoeuvres ont un effet sur les fascias, qui sont présents à tous les niveaux de profondeur du corps.</p>
@@ -96,7 +96,7 @@
         </section>
         <section id="ventouses" class="w-full pt-1 pb-20 xs:pb-5 xs:min-h-[50vh]">
             <div class="w-5/6 mx-auto">
-                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-10 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
+                <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
                     <div>
                         <p class="text-4xl font-[300] mb-5 xs:text-xs sm:text-xl md:text-xl xs:mb-2">Le massage thérapeutique</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6] xs:text-[10px] sm:text-[11px] md:text-[14px] lg:text-[16px]">Le massage thérapeutique est un ensemble de techniques manuelles réalisées sur le corps à but curatif. Le massothérapeute dispose de plusieurs techniques de base qui sont l’effleurage, le pétrissage, les pressions, les percussions, les frictions… qui agissent à différentes profondeurs sur différents tissus (muscles, tendons, ligaments, fascias…). Mais toutes ces manoeuvres ont un effet sur les fascias, qui sont présents à tous les niveaux de profondeur du corps.</p>
