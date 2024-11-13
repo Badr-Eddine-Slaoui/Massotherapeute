@@ -16,8 +16,8 @@
 
     </head>
     <body>
-        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 sm:px-12 md:px-16">
-            <div class="w-1/3">
+        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
+            <div class="w-1/5">
                 <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.png') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-7/12 sm:w-3/6 md:w-7/12 lg:w-6/12 xl:w-5/12">
@@ -29,8 +29,8 @@
                 </ul>
             </nav>
         </header>
-        <section class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] bg-[#f5fafd]">
-            <div class="w-5/6 mx-auto py-20">
+        <section class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] bg-[#f5fafd] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
+            <div class="w-5/6 mx-auto pb-20">
                 <h1 class="font-[300] text-6xl mt-10 mb-28 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Contactez-nous</h1>
                 <div class="w-full bg-white flex shadow-center-gray rounded-md xs:block sm:flex md:flex">
                     <div class="w-2/6 bg-[#03a9f4] rounded-s-md flex justify-center items-center xs:rounded-s-none xs:w-full xs:pt-5 sm:w-2/6 sm:pt-0 md:w-2/6 md:w-pt-0">

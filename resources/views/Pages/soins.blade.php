@@ -16,8 +16,8 @@
 
     </head>
     <body>
-        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 sm:px-12 md:px-16">
-            <div class="w-1/3">
+        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
+            <div class="w-1/5">
                 <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.png') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-7/12 sm:w-3/6 md:w-7/12 lg:w-6/12 xl:w-5/12">
@@ -29,7 +29,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh]">
+        <section class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
             <div class="w-5/6 mx-auto">
                 <h1 class="font-[300] text-6xl mt-10 mb-28 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Soins</h1>
                 <div id="massage-thérapeutique" class="w-full grid grid-rows-1 grid-cols-2 my-10 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">

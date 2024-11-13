@@ -16,8 +16,8 @@
 
     </head>
     <body>
-        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 sm:px-12 md:px-16">
-            <div class="w-1/3">
+        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
+            <div class="w-1/5">
                 <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.png') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-7/12 sm:w-3/6 md:w-7/12 lg:w-6/12 xl:w-5/12">
@@ -29,7 +29,7 @@
                 </ul>
             </nav>
         </header>
-        <main class="w-full mt-[15vh] min-h-[150vh] bg-HomeBg bg-cover relative xs:min-h-[65vh] sm:min-h-[110vh] md:min-h-[120vh] lg:min-h-[150vh]">
+        <main class="w-full mt-[15vh] min-h-[150vh] bg-HomeBg bg-cover relative xs:min-h-[65vh] xs:mt-[6vh] sm:min-h-[110vh] sm:mt-[10vh] md:mt-[15vh] md:min-h-[120vh] lg:min-h-[150vh]">
             <div class="w-full h-full bg-black bg-opacity-50 absolute z-[1] flex items-center justify-center">
                 <div class="text-white w-3/5 mx-auto text-center xs:w-8/12 sm:w-3/5 md:w-8/12 xl:w-3/5">
                     <div class="flex h-[35vh] mt-40 xs:h-[25vh] xs:mt-0 sm:h-[36vh] md:h-[35vh] md:mt-16">
